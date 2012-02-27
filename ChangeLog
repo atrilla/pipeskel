@@ -1,0 +1,65 @@
+02-Feb-2011  Alexandre Trilla  <alex@atrilla.net>
+
+    * include/Pipeskel.hpp: project documentation.
+
+
+30-Jan-2011  Alexandre Trilla  <alex@atrilla.net>
+
+    * include/proc/Exception.hpp: creation.
+    * src/proc/Exception.cpp
+
+    * include/proc/DataProcessor.hpp (setParameter, init, processData):
+    declared throwing Exception.
+    * src/proc/DataProcessor.cpp
+
+    * include/proc/Pipeline.hpp (class, loadDataProcessor): no inheritance
+    from DataProcessor, throws Exception. No more setParameter and init.
+    * src/proc/Pipeline.cpp
+
+    * src/example.cpp: integration of former changes.
+
+
+29-Jan-2011  Alexandre Trilla  <alex@atrilla.net>
+
+    * include/{data,proc}/*.hpp: Pipeskel namespace.
+    * src{,/{data,proc}}/*.cpp
+    * src/example.cpp
+
+    * src/proc/Pipeline.cpp (loadConfig): loadDataProcessor should
+    throw a ticpp exception.
+    * src/example.cpp
+
+
+28-Jan-2011  Alexandre Trilla  <alex@atrilla.net>
+
+    * include/proc/DataProcessor.hpp (getName): const.
+    * src/proc/DataProcessor.cpp
+
+    * include/proc/Pipeline.hpp (loadDataProcessor): const.
+    * src/example.cpp (MyPipeline)
+
+    * include/{data,proc}/*.hpp: Header comments.
+
+    * src{,/{data,proc}}/*.cpp: Header comments.
+
+    * include/Pipeskel.hpp: Pipeline Skeleton project comments.
+
+
+27-Jan-2011  Alexandre Trilla  <alex@atrilla.net>
+
+    * src/proc/Pipeline.cpp (loadConfig): pipe the processors once 
+    configured.
+
+    * src/proc/Pipeline.cpp (processData): std vector iterator.
+    * include/proc/Pipeline.hpp: inclusion of vector for clarity, despite
+    being already defined in ticpp.h.
+
+    * src/example.cpp (MyDataProcessor::processData): nicer cast.
+
+
+25-Jan-2011  Alexandre Trilla  <alex@atrilla.net>
+
+    * src/example.cpp: first compiling system.
+    * src/proc/DataProcessor.cpp
+    * src/proc/Pipeline.cpp
+

@@ -1,0 +1,43 @@
+Pipeline Skeleton
+=================
+
+One line description:
+
+    Skeletal application based on a pipeline architecture
+
+
+Attributions:
+
+	Alexandre Trilla
+
+
+Development:
+
+    The Pipeline Skeleton intends to provide an adequate ground framework
+    to buttress a data processing project without compromising its future
+    growth.
+
+
+Credentials:
+
+	This product includes software developed by:
+
+	* TinyXML++
+    Lee Thomason, Yves Berquin, Andrew Ellerton
+    www.sourceforge.net/projects/tinyxml
+
+
+License:
+
+	Copyright (c) 2011 Alexandre Trilla
+
+    Pipeline Skeleton is free software: you can redistribute it and/or
+    modify it under the terms of the MIT/X11 License as published by the
+    Massachusetts Institute of Technology. See the MIT/X11 License for
+    more details.
+
+    You should have received a copy of the MIT/X11 License along with
+    this source code distribution of Pipeline Skeleton (see the COPYING
+    file in the root directory). If not, see
+    <http://www.opensource.org/licenses/mit-license>.
+

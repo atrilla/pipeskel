@@ -1,0 +1,34 @@
+Pipeline Skeleton
+=================
+
+The Pipeline Skeleton intends to provide an adequate ground framework
+to buttress a data processing project without compromising its future
+growth. Therefore, it is focused on modularity, configurability and
+extensibility.
+
+Pipeline Skeleton has been coded in the C/C++ programming language.
+
+----------
+
+This README text file only provides a general description of
+the project.
+
+In order to obtain the project's files organisation please refer
+to the HACKING text file included in this source code distribution of 
+Pipeline Skeleton.
+
+The information relating to the different classes that compose
+the Pipeline Skeleton is pertinently reported in the documentation.
+Please build the system first as indicated in the INSTALL file 
+and launch a web browser with the "doc/index.html" file.
+
+----------
+
+For any comment or suggestion of any kind, you may contact
+Alexandre Trilla
+
+    <alex@atrilla.net>
+
+Wishing that the Pipeline Skeleton may be useful to the community,
+receive a most sincere and cordial salutation.
+
